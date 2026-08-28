@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIKRAM — Architect & Builder of the Future</title>
+  <meta name="description" content="Personal portfolio of Bikram Bir Keshari — Student, learner, programmer, builder, and technology enthusiast at Sainik School KSVM, Patna.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="vault-locked">
+
+  <!-- HORIZONTAL VAULT SHUTTER INTRO SCREEN -->
+  <div id="vault-shutter" class="vault-shutter-overlay">
+    <div class="vault-shutter-content">
+      <h1 class="vault-giant-title">BIKRAM<span class="accent-dot">.</span></h1>
+      <p class="vault-subhead">ARCHITECT • BUILDER • VISIONARY OF THE FUTURE</p>
+    </div>
+  </div>
+
+  <!-- Custom Minimal Cursor Follower -->
+  <div class="custom-cursor-dot"></div>
+  <div class="custom-cursor-ring"></div>
+
+  <!-- Fixed Vertical Scroll Progress Tracker & Dot Matrix -->
+  <div class="vertical-scroll-tracker">
+    <div class="scroll-progress-line">
+      <div id="scroll-progress-fill" class="scroll-progress-fill"></div>
+    </div>
+    <div class="scroll-dot-matrix">
+      <div class="scroll-dot-indicator active" data-target="#hero" title="Hero"></div>
+      <div class="scroll-dot-indicator" data-target="#programming" title="Programming"></div>
+      <div class="scroll-dot-indicator" data-target="#cold-calling" title="Cold Calling"></div>
+      <div class="scroll-dot-indicator" data-target="#ecommerce" title="E-Commerce"></div>
+      <div class="scroll-dot-indicator" data-target="#website-selling" title="Website Selling"></div>
+      <div class="scroll-dot-indicator" data-target="#app-dev" title="App Dev"></div>
+      <div class="scroll-dot-indicator" data-target="#game-dev" title="Game Dev"></div>
+    </div>
+  </div>
+
+  <!-- Header Navigation Bar -->
+  <header class="navbar">
+    <a href="#hero" class="nav-brand">
+      BIKRAM BIR KESHARI<span class="accent-dot">.</span>
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#programming" class="nav-link">Programming</a></li>
+        <li><a href="#cold-calling" class="nav-link">Cold Calling</a></li>
+        <li><a href="#ecommerce" class="nav-link">E-Commerce</a></li>
+        <li><a href="#website-selling" class="nav-link">Web Selling</a></li>
+        <li><a href="#app-dev" class="nav-link">App Dev</a></li>
+        <li><a href="#game-dev" class="nav-link">Game Dev</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=birpurveer@gmail.com" target="_blank" rel="noopener noreferrer" class="nav-contact-btn">GET IN TOUCH</a>
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div id="mobile-nav-drawer" class="mobile-nav-drawer">
+    <div class="mobile-nav-content">
+      <ul class="mobile-nav-links">
+        <li><a href="#programming" class="mobile-nav-link">01 // Programming</a></li>
+        <li><a href="#cold-calling" class="mobile-nav-link">02 // Cold Calling</a></li>
+        <li><a href="#ecommerce" class="mobile-nav-link">03 // E-Commerce</a></li>
+        <li><a href="#website-selling" class="mobile-nav-link">04 // Web Selling</a></li>
+        <li><a href="#app-dev" class="mobile-nav-link">05 // App Dev</a></li>
+        <li><a href="#game-dev" class="mobile-nav-link">06 // Game Dev</a></li>
+        <li><a href="#matrix" class="mobile-nav-link">07 // Identity</a></li>
+      </ul>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=birpurveer@gmail.com" target="_blank" rel="noopener noreferrer" class="mobile-contact-btn">GET IN TOUCH →</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION - FULL-AREA BACKGROUND SLIDESHOW -->
+    <section id="hero" class="hero-section">
+      <!-- Full-Bleed Background Portrait Slideshow Carousel -->
+      <div class="hero-bg-carousel">
+        <img src="assets/images/bikram-portrait-1.jpg" alt="Bikram Bir Keshari Portrait 1" class="hero-bg-slide active" data-slide="0">
+        <img src="assets/images/bikram-portrait-2.jpg" alt="Bikram Bir Keshari Portrait 2" class="hero-bg-slide" data-slide="1">
+        <img src="assets/images/bikram-portrait-3.jpg" alt="Bikram Bir Keshari Portrait 3" class="hero-bg-slide" data-slide="2">
+        <div class="hero-bg-overlay"></div>
+      </div>
+
+      <div class="container hero-container-content">
+        <div class="hero-grid-split">
+          
+          <!-- Left Column: Kinetic Statement & Coordinates -->
+          <div class="hero-statement-col">
+            <div class="hero-tag-badge">
+              <span class="pulse"></span>
+              STUDENT & TECHNOLOGY ENTHUSIAST
+            </div>
+
+            <h1 class="hero-title-giant">
+              BIKRAM BIR <br>
+              KESHARI<span class="accent-dot">.</span>
+            </h1>
+
+            <div class="hero-coords-box">
+              SAINIK SCHOOL KSVM, PATNA // LAT 25.5941° N, LONG 85.1376° E
+            </div>
+          </div>
+
+          <!-- Right Column: Vertical Slide Counter & Controls matching reference image -->
+          <div class="hero-slide-nav">
+            <div class="slide-nav-counter">
+              <span id="slide-current-num" class="current">01</span>
+              <div class="slide-nav-line"></div>
+              <span class="total">03</span>
+            </div>
+
+            <div class="slide-nav-dots">
+              <button class="slide-nav-btn active" data-index="0">01</button>
+              <button class="slide-nav-btn" data-index="1">02</button>
+              <button class="slide-nav-btn" data-index="2">03</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BIG MONOLITH SECTION BANNER: MY ACTIONS AND DEEDS -->
+    <div class="actions-deeds-banner">
+      <div class="container">
+        <span class="deeds-sub-tag font-mono">// EXCLUSIVE SKILLS & CAPABILITIES</span>
+        <h2 class="deeds-giant-title font-header reveal-up">MY ACTIONS AND DEEDS<span class="accent-dot">.</span></h2>
+      </div>
+    </div>
+
+    <!-- EXCLUSIVE SECTION 01: PROGRAMMING LANGUAGES -->
+    <section id="programming" class="section-block skill-dedicated-section">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">PROGRAMMING<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// LOGIC, SYSTEMS & SYNTAX</span>
+        </div>
+
+        <div class="code-ticker-list">
+          
+          <div class="code-ticker-row">
+            <span class="ticker-code">[ PY ]</span>
+            <div class="ticker-info">
+              <h3 class="ticker-title">PYTHON</h3>
+              <span class="ticker-sub">Automation, scripting & algorithmic logic</span>
+            </div>
+            <div class="ticker-tags">
+              <span>Automation</span> <span>Algorithms</span> <span>AI Concepts</span> <span>CLI Tools</span>
+            </div>
+            <span class="ticker-arrow">→</span>
+          </div>
+
+          <div class="code-ticker-row">
+            <span class="ticker-code">[ C++ ]</span>
+            <div class="ticker-info">
+              <h3 class="ticker-title">C++</h3>
+              <span class="ticker-sub">High-performance systems & memory management</span>
+            </div>
+            <div class="ticker-tags">
+              <span>OOP</span> <span>Memory Management</span> <span>Data Structures</span>
+            </div>
+            <span class="ticker-arrow">→</span>
+          </div>
+
+          <div class="code-ticker-row">
+            <span class="ticker-code">[ WEB ]</span>
+            <div class="ticker-info">
+              <h3 class="ticker-title">HTML5 & CSS3</h3>
+              <span class="ticker-sub">Semantic architecture & 3D CSS transforms</span>
+            </div>
+            <div class="ticker-tags">
+              <span>Semantic Markup</span> <span>3D CSS</span> <span>Responsive</span>
+            </div>
+            <span class="ticker-arrow">→</span>
+          </div>
+
+          <div class="code-ticker-row">
+            <span class="ticker-code">[ JS ]</span>
+            <div class="ticker-info">
+              <h3 class="ticker-title">JAVASCRIPT & DOM</h3>
+              <span class="ticker-sub">Event-driven UI & dynamic interaction engines</span>
+            </div>
+            <div class="ticker-tags">
+              <span>ES6+</span> <span>DOM Manipulation</span> <span>Event Loops</span>
+            </div>
+            <span class="ticker-arrow">→</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXCLUSIVE SECTION 02: COLD CALLING (TACTICAL CONVERSION LADDER) -->
+    <section id="cold-calling" class="section-block section-dark skill-dedicated-section">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">COLD CALLING<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// OUTREACH & CONVERSION LADDER</span>
+        </div>
+
+        <div class="tactical-ladder-flow">
+          
+          <div class="ladder-step">
+            <div class="ladder-num-badge">01</div>
+            <div class="ladder-content">
+              <h3 class="ladder-title">PROSPECTING & TARGETING</h3>
+              <p class="ladder-sub">Identifying decision makers, list building & intelligence gathering.</p>
+              <div class="ladder-pills">
+                <span>Lead Research</span> <span>Decision Makers</span> <span>ICP Profiling</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ladder-step">
+            <div class="ladder-num-badge">02</div>
+            <div class="ladder-content">
+              <h3 class="ladder-title">HOOK & PITCH FRAMEWORK</h3>
+              <p class="ladder-sub">Pattern interrupts, elevator pitch delivery & confident tone control.</p>
+              <div class="ladder-pills">
+                <span>Pattern Interrupt</span> <span>Elevator Pitch</span> <span>Tone Control</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ladder-step">
+            <div class="ladder-num-badge">03</div>
+            <div class="ladder-content">
+              <h3 class="ladder-title">OBJECTION REFRAMING</h3>
+              <p class="ladder-sub">Turning resistance into discovery, active listening & handling brush-offs.</p>
+              <div class="ladder-pills">
+                <span>Active Listening</span> <span>Reframing</span> <span>Objection Matrix</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ladder-step">
+            <div class="ladder-num-badge">04</div>
+            <div class="ladder-content">
+              <h3 class="ladder-title">CLOSING & FOLLOW-UP</h3>
+              <p class="ladder-sub">Securing discovery meetings & maintaining a high-converting pipeline.</p>
+              <div class="ladder-pills">
+                <span>Meeting Booking</span> <span>Pipeline Management</span> <span>CRM Tracking</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXCLUSIVE SECTION 03: E-COMMERCE -->
+    <section id="ecommerce" class="section-block skill-dedicated-section">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">E-COMMERCE<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// DIGITAL STORES & SCALING SYSTEMS</span>
+        </div>
+
+        <div class="inspirations-list">
+          
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">STORE ARCHITECTURE</h3>
+              <span class="insp-role">HIGH-CONVERTING STOREFRONTS</span>
+            </div>
+            <p class="insp-desc">Mobile-first UX design, collection hierarchy, catalog optimization, and checkout conversion enhancement.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">PRODUCT RESEARCH</h3>
+              <span class="insp-role">MARKET TREND FIT</span>
+            </div>
+            <p class="insp-desc">Analyzing market trends, profit margin calculations, supplier vetting, and winning product selection.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">CONVERSION OPTIMIZATION</h3>
+              <span class="insp-role">REVENUE BOOST (CRO)</span>
+            </div>
+            <p class="insp-desc">A/B testing product pages, social proof triggers, urgency design, and cart abandonment recovery strategies.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">FULFILLMENT & PAYMENTS</h3>
+              <span class="insp-role">AUTOMATED LOGISTICS</span>
+            </div>
+            <p class="insp-desc">Integrating secure payment gateways, automated order routing, inventory sync, and customer support channels.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXCLUSIVE SECTION 04: WEBSITE SELLING -->
+    <section id="website-selling" class="section-block section-dark skill-dedicated-section">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">WEBSITE SELLING<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// CLIENT SOLUTIONS & COMMERCIALIZATION</span>
+        </div>
+
+        <div class="inspirations-list">
+          
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">CLIENT OUTREACH & AUDITS</h3>
+              <span class="insp-role">DEAL GENERATION & AUDITS</span>
+            </div>
+            <p class="insp-desc">Auditing outdated business websites, crafting custom video breakdowns, and pitching modern high-converting redesign solutions.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">CUSTOM WEB PROTOTYPING</h3>
+              <span class="insp-role">RAPID DEMOS & CONVERSIONS</span>
+            </div>
+            <p class="insp-desc">Designing rapid interactive wireframes, high-impact hero sections, and clear CTA structures to close deals fast.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">VALUE-BASED POSITIONING</h3>
+              <span class="insp-role">HIGH-TICKET ASSET PRICING</span>
+            </div>
+            <p class="insp-desc">Positioning websites as revenue generation assets rather than expenses, negotiating deliverables, and contract signing.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">SERVER HANDOFF & SEO</h3>
+              <span class="insp-role">RELEASE & CARE PLANS</span>
+            </div>
+            <p class="insp-desc">Deploying custom websites to production servers, SEO optimization, domain configuration, and ongoing care plans.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXCLUSIVE SECTION 05: APP DEV -->
+    <section id="app-dev" class="section-block skill-dedicated-section">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">APP DEVELOPMENT<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// MOBILE ARCHITECTURE & NATIVE UI</span>
+        </div>
+
+        <div class="inspirations-list">
+          
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">CROSS-PLATFORM APPS</h3>
+              <span class="insp-role">iOS & ANDROID NATIVE</span>
+            </div>
+            <p class="insp-desc">Building responsive mobile application interfaces for iOS and Android with unified codebase architecture.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">MOBILE UI & GESTURES</h3>
+              <span class="insp-role">TOUCH UX & ANIMATIONS</span>
+            </div>
+            <p class="insp-desc">Crafting fluid touch interactions, micro-animations, bottom sheets, navigation stacks, and ergonomic screen layouts.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">BACKEND & API INTEGRATION</h3>
+              <span class="insp-role">REAL-TIME DATA SYNC</span>
+            </div>
+            <p class="insp-desc">Connecting mobile applications to REST APIs, real-time database sync, push notification pipelines, and user authentication.</p>
+          </div>
+
+          <div class="vault-inspiration-item">
+            <div>
+              <h3 class="insp-name">STORE PUBLISHING & PERF</h3>
+              <span class="insp-role">RELEASE DEPLOYMENT</span>
+            </div>
+            <p class="insp-desc">Optimizing app bundle size, frame rates, memory footprint, and preparing release builds for App Store & Google Play.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXCLUSIVE SECTION 06: GAME DEV & INSPIRATIONS VAULT -->
+    <section id="game-dev" class="section-block section-dark skill-dedicated-section">
+      <div class="container">
+        
+        <div class="make-worlds-banner-monolith">
+          <h2 class="make-worlds-title font-header">MAKE WORLDS<span class="accent-dot">.</span></h2>
+          <div class="pipeline-flex-flow">
+            <span class="pipeline-step">IDEA</span> <span class="pipeline-arrow">→</span>
+            <span class="pipeline-step">CODE</span> <span class="pipeline-arrow">→</span>
+            <span class="pipeline-step">ASSETS</span> <span class="pipeline-arrow">→</span>
+            <span class="pipeline-step">WORLD</span> <span class="pipeline-arrow">→</span>
+            <span class="pipeline-step">GAME</span>
+          </div>
+        </div>
+
+        <div class="section-header-row">
+          <h2 class="section-title-large">GAME DEVELOPMENT<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// INTERACTIVE MECHANICS & PIPELINES</span>
+        </div>
+
+        <div class="inspirations-list" style="margin-bottom: 4rem;">
+          
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">GAME ENGINE MECHANICS</h3>
+              <span class="insp-role">LOGIC & PHYSICS</span>
+            </div>
+            <p class="insp-desc">Programming player movement, collision physics, weapon mechanics, state machines, and enemy AI behavior.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">3D & PIPELINE ASSETS</h3>
+              <span class="insp-role">GRAPHICS & SHADERS</span>
+            </div>
+            <p class="insp-desc">Importing 3D model pipelines, texture mapping, lighting shaders, particle effects, and spatial audio integration.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">WORLD & LEVEL DESIGN</h3>
+              <span class="insp-role">ENVIRONMENTAL IMMERSION</span>
+            </div>
+            <p class="insp-desc">Constructing interactive game environments, map layouts, pacing, environmental storytelling, and level polish.</p>
+          </div>
+
+          <div class="vault-inspiration-item dark-inspiration-item">
+            <div>
+              <h3 class="insp-name">GAMING STRATEGY & TESTING</h3>
+              <span class="insp-role">PLAYTESTING & BALANCING</span>
+            </div>
+            <p class="insp-desc">Competitive insights from VALORANT, Free Fire, Call of Duty, Mario, and Detroit: Become Human to balance game mechanics.</p>
+          </div>
+
+        </div>
+
+        <div>
+          <div class="section-header-row">
+            <h2 class="section-title-large">INSPIRATIONS<span class="accent-dot">.</span></h2>
+            <span class="section-sub-tag">// STRATEGY & MASTERY</span>
+          </div>
+
+          <div class="inspirations-list">
+            
+            <div class="vault-inspiration-item dark-inspiration-item">
+              <div>
+                <h3 class="insp-name">GENNADY KOROTKEVICH</h3>
+                <span class="insp-role">PROGRAMMING & PROBLEM SOLVING</span>
+              </div>
+              <p class="insp-desc">Represents peak algorithmic thinking, precision, and problem-solving mastery in computer science.</p>
+            </div>
+
+            <div class="vault-inspiration-item dark-inspiration-item">
+              <div>
+                <h3 class="insp-name">MAGNUS CARLSEN</h3>
+                <span class="insp-role">STRATEGY & MASTERY</span>
+              </div>
+              <p class="insp-desc">Represents strategic depth, relentless improvement, foresight, and tactical clarity under pressure.</p>
+            </div>
+
+            <div class="vault-inspiration-item dark-inspiration-item">
+              <div>
+                <h3 class="insp-name">ELON MUSK</h3>
+                <span class="insp-role">AMBITION & ENGINEERING</span>
+              </div>
+              <p class="insp-desc">Represents bold technological ambition, first-principles thinking, and building for the future.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MATRIX OF IDENTITY -->
+    <section id="matrix" class="section-block">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">THE MATRIX<span class="accent-dot">.</span></h2>
+          <span class="section-sub-tag">// IDENTITY & CORE VERBS</span>
+        </div>
+
+        <div class="matrix-list">
+          
+          <div class="matrix-item">
+            <span class="matrix-num">[ 01 ]</span>
+            <h3 class="matrix-verb">LEARN</h3>
+            <p class="matrix-desc">Continuous discovery in programming, computer systems & tech.</p>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">[ 02 ]</span>
+            <h3 class="matrix-verb">BUILD</h3>
+            <p class="matrix-desc">Transforming concepts into functional code & web systems.</p>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">[ 03 ]</span>
+            <h3 class="matrix-verb">EXPLORE</h3>
+            <p class="matrix-desc">Game development, artificial intelligence & computer architecture.</p>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">[ 04 ]</span>
+            <h3 class="matrix-verb">PLAY</h3>
+            <p class="matrix-desc">Strategic & competitive gaming in VALORANT, COD & Detroit.</p>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">[ 05 ]</span>
+            <h3 class="matrix-verb">CREATE</h3>
+            <p class="matrix-desc">Interactive experiences: IDEA → CODE → ASSETS → WORLD → GAME.</p>
+          </div>
+
+          <div class="matrix-item">
+            <span class="matrix-num">[ 06 ]</span>
+            <h3 class="matrix-verb">BECOME</h3>
+            <p class="matrix-desc">BIKRAM IS STILL BECOMING.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 05: AMBITION JOURNEY & FOOTER -->
+    <section id="journey" class="section-block" style="padding-bottom: 2rem;">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <h2 class="section-title-large">THE PATH.</h2>
+          <span class="section-sub-tag">// CONTINUOUS EVOLUTION</span>
+        </div>
+
+        <div class="journey-step-path">
+          <div class="journey-pill">NOW</div>
+          <span class="journey-arrow">→</span>
+          <div class="journey-pill">LEARN</div>
+          <span class="journey-arrow">→</span>
+          <div class="journey-pill">BUILD</div>
+          <span class="journey-arrow">→</span>
+          <div class="journey-pill">CREATE</div>
+          <span class="journey-arrow">→</span>
+          <div class="journey-pill">EXPERIMENT</div>
+          <span class="journey-arrow">→</span>
+          <div class="journey-pill">MASTER</div>
+        </div>
+
+        <h2 class="final-statement-banner font-header">
+          BIKRAM IS STILL BECOMING.
+        </h2>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER & CONTACT -->
+  <footer id="contact" class="footer-section">
+    <div class="container">
+      
+      <div class="footer-email-wrap">
+        <a id="email-copy-trigger" href="https://mail.google.com/mail/?view=cm&fs=1&to=birpurveer@gmail.com" target="_blank" rel="noopener noreferrer" class="email-copy-trigger font-header">
+          birpurveer@gmail.com
+        </a>
+      </div>
+
+      <div class="footer-meta-row">
+        <div>© 2026 BIKRAM BIR KESHARI. ALL RIGHTS RESERVED.</div>
+        <div>SAINIK SCHOOL KSVM, PATNA</div>
+        <div>STILL LEARNING. STILL BUILDING.</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast Notification Message -->
+  <div id="toast" class="toast-message">COPIED TO CLIPBOARD</div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
